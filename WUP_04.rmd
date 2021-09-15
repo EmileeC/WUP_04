@@ -3,9 +3,9 @@ title: "WUP_04"
 author: "Emilee Coronel"
 date: "fall 2021"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 ```{r include=FALSE,echo=FALSE}
@@ -72,8 +72,10 @@ par(mar = c(3, 8.7, 2, 2))
 plot(TukeyHSD(model1,las=2,conf.level=.90),lass=2)
 
 
-This shows that high school and graduate are different from each other and LT high school and graduate are different from each other.
+This shows that high school and graduate are different from each other and LT high school and graduate are different from each other. We can see that LThigh school- graduated and high school- graduate do not hit the "0" line.
 
 
 # Discussion and Conclusion
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+  
+  In this boxplot we discussed how individuals with a graduate, bacholor degree, and a junior college degree scored better then individuals In the LT high school category and the high school category. We established that the people who attended college had a mean value of nine or greater, also the LT high school and the high school students had a mean value of eight or less. We found that our P value was a very small value of 0.000236, so we rejected the null hypothesis. Lastly we used the "TukeyHSD" model and were able to ellaborate further that the ninety five percent confidence level LT high school- graduate and high school- graduate categories did not go over the "0." In conclusion these two cateogories refrenced are different.
